@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{632F0B45-6722-4C5C-90B3-9F0669EA3145}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{67778210-5737-4EDE-95A5-AC8B30C107FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeDl.ConsoleApp", "YouTubeDl.ConsoleApp\YouTubeDl.ConsoleApp.csproj", "{D9AC5CCC-5EF2-409D-92F6-031B29EF80B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Video", "Video", "{BA3B40CE-7E3C-4819-8368-708816471025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9AC5CCC-5EF2-409D-92F6-031B29EF80B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AC5CCC-5EF2-409D-92F6-031B29EF80B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AC5CCC-5EF2-409D-92F6-031B29EF80B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AC5CCC-5EF2-409D-92F6-031B29EF80B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9AC5CCC-5EF2-409D-92F6-031B29EF80B9} = {632F0B45-6722-4C5C-90B3-9F0669EA3145}
+		{BA3B40CE-7E3C-4819-8368-708816471025} = {67778210-5737-4EDE-95A5-AC8B30C107FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D64B5E81-AA81-4BF3-9505-F806CED48C22}
+	EndGlobalSection
+EndGlobal
