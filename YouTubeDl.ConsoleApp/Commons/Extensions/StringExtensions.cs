@@ -1,5 +1,6 @@
 ﻿
-namespace YouTubeDl.ConsoleApp.Extensions
+
+namespace YouTubeDl.ConsoleApp.Commons.Extensions
 {
     public static class StringExtensions
     {
@@ -10,7 +11,7 @@ namespace YouTubeDl.ConsoleApp.Extensions
                 Uri uri = new Uri(link);
 
                 return uri.Host == "www.youtube.com" || uri.Host == "youtube.com" ||
-                       uri.Host == "www.youtu.be" || uri.Host == "youtu.be";
+                        uri.Host == "www.youtu.be" || uri.Host == "youtu.be";
 
             }
             catch (Exception)
@@ -19,4 +20,4 @@ namespace YouTubeDl.ConsoleApp.Extensions
             }
         }
     }
-}
+ }
