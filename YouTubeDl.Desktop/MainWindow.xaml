@@ -1,0 +1,35 @@
+﻿<Window x:Class="YouTubeDl.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YouTubeDl.Desktop"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="VideoDownloader" Height="522" Width="825"
+        ResizeMode="NoResize">
+    <Grid Margin="0,0,0,-16">
+
+        <Image Source="E:\Projects\Desktop\YouTubeDownloader\YouTubeDl.Desktop\Images\youtubeBack.png" Margin="0,-8,0,3"/>
+
+        <TextBlock Text="Home" FontSize="20" Foreground="Snow" 
+                   HorizontalAlignment="Left" 
+                   FontWeight="DemiBold" Width="77" Margin="50,36,0,420"/>
+
+        <Button Content="Select folder" Click="SelectFolder_Click" Cursor="Hand"
+                md:ButtonAssist.CornerRadius="9" Margin="50,-54,583,245"/>
+
+        <TextBox Name="filePathBox" Background="#F7F1F1" Padding="8 0 0 5"
+                 md:TextFieldAssist.TextFieldCornerRadius="7" md:HintAssist.Hint="File path"
+                 FontWeight="DemiBold" md:HintAssist.HintOpacity="0.5"
+                 md:HintAssist.IsFloating="True" Margin="50,137,583,331"/>
+
+        <TextBox md:HintAssist.Hint="Link" HorizontalAlignment="Left" Cursor="IBeam" 
+                 Width="362" Background="#F7F1F1" Padding="8 0 0 7" FontSize="14"
+                 FontWeight="DemiBold" md:TextFieldAssist.TextFieldCornerRadius="10"
+                 md:HintAssist.HintOpacity="0.4" md:HintAssist.IsFloating="True" Margin="50,182,0,275"/>
+
+        <Button Content="Download" Cursor="Hand"
+                md:ButtonAssist.CornerRadius="9" Margin="50,256,583,212"/>
+
+    </Grid>
+</Window>
